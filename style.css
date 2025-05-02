@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: "Montserrat";
+}
+body {
+    background-color: #3C151A;
+    font-family: "Montserrat";
+
+}
+.menu {
+    list-style: none;
+    display: flex;
+    background-color: #320F14;
+    gap: 100px;
+}
+.alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #320F14;
+    width: 100%;
+    height: 74px;
+    justify-content: space-around;
+}
+.textoCabecalho {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #320F14;
+    text-decoration: none;
+}
+.menu li a.active {
+    border-top: 1px solid #fff;
+    padding: 10px 30px;
+}
+.menu li a:hover {
+    border-top: 1px solid #ffffff;
+    padding-top: 10px ; 
+}
+main {
+    height: 77vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}  
+.home {
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    gap: 130px;
+}
+/* .descricao {
+    border: 1px solid #fff;
+} */
+.textoDescricao { 
+    width: 216px;
+    margin-top: 55px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.nome {
+    font-size: 27px;
+    font-weight: 700;
+}
+.sobrenome {
+    font-size: 26px;
+    font-weight: 600;
+}
+.site {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-weight: 400;
+}
+.quadradoFoto {
+    width: 230px;
+    height: 230px;
+    /* background-color: #fff; */
+    border-radius: 7px;
+    background-color: #fff;
+}
+.sobre {
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    gap: 55px;
+    margin-top: 30px;
+}
+.quadradoFotoMenor {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.nome2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.sobreMim {
+    font-size: 13px;
+    font-weight: 400;
+}
+.tituloResu {
+    margin-top: 37px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.textoHabili {
+    width: 910px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.quadradoConhecimentos {
+    width: 80px;
+    height: 68px;
+    background-color: #2D090E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rowCards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.imagemConhecim {
+    width: 54px;
+    height: 54px;
+    background-color: #2D090E;
+}
+.experienciasTudo {
+    margin-top: 200px;
+}
+.experiencias {
+    background-color: #320F14;
+    border-radius: 16px;
+    padding: 30px;
+    color: #fff;
+    width: 640px;
+    width: 696px;
+}
+.tituloImage {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 18px;
+}
+.textoDescricaoEmpre {
+    width: 530px;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.textoInfo {
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.linhaVertical {
+    height: 111px;
+    width: 1px;
+    background-color: #fff;
+    display: flex;
+    justify-self: center;
+    margin: 20px;
+}
+.formacao {
+    color: #fff;
+}
+.titulos {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 400px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.cardFundo {
+    padding: 10px 30px;
+    background-color: #2D090E;
+    border-radius: 10px;
+}
+.tituloCiencia {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 17px;
+}
+.descricaoForma {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.infoFormacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 190px;
+    margin-left: 40px;
+}
+.linhaVerticalMaior {
+    background-color: #fff;
+    height: 300px;
+    width: 1px;
+}
+.contato {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cardContato {
+    width: 86px;
+    height: 86px;
+    background-color: #320F14;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    pointer-events: auto;
+}
+.rowCards2 {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-top: 80px;
+}
+.cardFundoContato {
+    background-color: #2D090E;
+    border-radius: 16px;
+    padding: 10px;
+}
+.entreContato {
+    display: flex;
+    justify-self: center;
+}
