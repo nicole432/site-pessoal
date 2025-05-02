@@ -63,10 +63,12 @@ main {
 .nome {
     font-size: 27px;
     font-weight: 700;
+    text-shadow: 3px 4px 3px#2D090E;
 }
 .sobrenome {
     font-size: 26px;
     font-weight: 600;
+    text-shadow: 3px 4px 3px#2D090E;
 }
 .site {
     display: flex;
@@ -79,7 +81,7 @@ main {
     height: 230px;
     /* background-color: #fff; */
     border-radius: 7px;
-    background-color: #fff;
+    box-shadow: 3px 3px 3px #2D090E;
 }
 .sobre {
     display: flex;
@@ -88,11 +90,13 @@ main {
     gap: 55px;
     margin-top: 30px;
 }
+
 .quadradoFotoMenor {
     width: 100px;
     height: 100px;
     background-color: #fff;
     border-radius: 6px;
+    box-shadow: 3px 3px 3px #2D090E;
 }
 .nome2 {
     font-size: 19px;
@@ -141,7 +145,6 @@ main {
     padding: 30px;
     color: #fff;
     width: 640px;
-    width: 696px;
 }
 .tituloImage {
     display: flex;
@@ -200,7 +203,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 190px;
+    gap: 170px;
     margin-left: 40px;
 }
 .linhaVerticalMaior {
@@ -235,7 +238,27 @@ main {
     border-radius: 16px;
     padding: 10px;
 }
+.cardContato:hover {
+    border: 0.5px solid #fff;
+    box-shadow: 3px 3px 4px #2D090E;
+}
 .entreContato {
     display: flex;
     justify-self: center;
+}
+@media (max-width: 1008px) {
+    .menu {
+        gap: 20px;
+    }
+    .sobre {
+        gap:30px;
+        margin-top: 140px;
+    }
+    .textoHabili {
+        width: 500px;
+    }
+    .rowCards {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
